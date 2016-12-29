@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OApDMM42EeSPn8un6A53Ng" name="frequencies" dataPackage="_OApDMc42EeSPn8un6A53Ng" Server="Localhost 127.0.0.1" FilePath="C:/projects/Koop/DONL2/svn/ngr/src/Jcid/Ngr/Mapping/frequency.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" RemoveEmptyRow="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OApDMc42EeSPn8un6A53Ng" name="default" dataManager="_OApDMM42EeSPn8un6A53Ng">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OApDMs42EeSPn8un6A53Ng" id="_I_pOgM42EeSPn8un6A53Ng" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OApDM842EeSPn8un6A53Ng" label="value" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OApDNM42EeSPn8un6A53Ng" label="uri" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

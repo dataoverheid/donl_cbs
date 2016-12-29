@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_lCK9IGXsEeWMA9RLwPucig" name="cbs_table_themes_response" dataPackage="_lCK9I2XsEeWMA9RLwPucig" JSONFilePath="C:/projects/Koop/DONL2/cbs/cbs_table_themes_response.json" Encoding="UTF-8">
+    <schema xmi:id="_lCK9IWXsEeWMA9RLwPucig" LimitBoucle="1" AbsoluteXPathQuery="/root/value" flag="ROOT">
+      <schemaTargets xmi:id="_lCK9ImXsEeWMA9RLwPucig" RelativeXPathQuery="Title" TagName="Title"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lCK9I2XsEeWMA9RLwPucig" name="default" dataManager="_lCK9IGXsEeWMA9RLwPucig">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lCK9JGXsEeWMA9RLwPucig" id="_V3-q4GXsEeWMA9RLwPucig" label="cbs_tables_theme_response_json">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lCK9JWXsEeWMA9RLwPucig" label="Title" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
